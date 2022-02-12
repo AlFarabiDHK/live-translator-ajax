@@ -1,0 +1,42 @@
+
+<!--
+Name:        Muhtasim Al-Farabi
+Course:      CSc 337
+File:        index.html
+Description: This html file has the necessary static html
+              for translation.js server.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script src="./outline.js"></script>
+  <title>Translator</title>
+</head>
+<body>
+  <div id="title">
+      <h1>Translator</h1>
+  </div>
+
+<div id ="left-side">
+  <select name="languages-left" id="language-left">
+    <option value="english" id="e1">English</option>
+    <option value="spanish" id="s1">Spanish</option>
+    <option value="german" id="g1">German</option>
+  </select>
+  <textarea oninput = 'requestTranslation();' type="text" id="left"></textarea>
+</div>
+
+<div id="right-side">
+    <select onchange = 'requestTranslation();' 
+    name="languages-right" id="language-right">
+      <option value="english" id="e2">English</option>
+      <option value="spanish" id="s2">Spanish</option>
+      <option value="german" id="g2">German</option>
+    </select>
+    <textarea type="text" id="right"></textarea>
+  </div>
+
+
+</body>
+</html>
