@@ -10,5 +10,5 @@ Then, clone the repo with: `git clone https://github.com/AlFarabiDHK/live-transl
 
 I am using: `node 17.4.0` and `express 4.17.3`
 
-Now, run `node transtor.js` and go to [`localhost:5000`](http://localhost:5000/) to use the app
+Now, run `node translator.js` and go to [`localhost:5000`](http://localhost:5000/) to use the app
  
